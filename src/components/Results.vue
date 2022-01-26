@@ -13,11 +13,11 @@ export default {
   },
   mounted() {
     if (this.score < 350) {
-      this.rank = "your girl must be happy fingers";
+      this.rank = "fastest fingers in the west";
     } else if (this.score < 400) {
       this.rank = "Getting there";
     } else {
-      this.rank = "You suck get good son";
+      this.rank = "get good";
     }
   },
 };
